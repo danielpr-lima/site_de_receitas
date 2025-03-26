@@ -22,7 +22,7 @@ main {
     height: 70%;
     width: 65%;
     margin: 2.5% auto;
-    background-color: #c0ff73;
+    background-color: #e4ffaf;
     border-radius: 1vw;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@ main {
 .header {
     height: 10vh;
     width: 100vw;
-    background-color: #E4FFC3;
+    background-color: #e4ffaf;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -51,7 +51,7 @@ main {
 }
 
 .link-logo {
-    margin-right: 50%;
+    margin-right: 46.5%;
     font-family: 'Caveat';
     font-size: 3.5vh;
 }
@@ -60,7 +60,7 @@ main {
     height: 10vh;
     width: 100vw;
     margin-top: auto;
-    background-color: #E4FFC3;
+    background-color: #e4ffaf;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
