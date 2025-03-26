@@ -31,36 +31,52 @@ main {
     height: 100%;
 }
 
-.div-esquerda {
+.div-direita {
     background-color: #FFF5C3 ;
+    border-radius: 1vw;
+    width: 40%;
+    height: 100%;
+    border: 0.05vw solid #000000;
+    gap: 1vw;
+}
+.div-esquerda {
     border-radius: 1vw;
     width: 60%;
     height: 100%;
-    border: 0.05vw solid #000000;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1vw;
     
 }
-.div-direita {
-    background-color: #FFF5C3 ;
-    border-radius: 1vw;
-    width: 40%;
-    margin-left: 1.5%;
-    height: 100%;
-    border: 0.05vw solid #000000;
-}
-
-
-
-/* .div-receita img{ 
+.div-esquerda img{ 
     width: 100%;
-    height: 80%;
+    height: 90%;
     border-radius: 1vw;
     object-fit: cover;
-    
-} */
+    border: 0.05vw solid #000000;
+ }
+ .div-ingredientes{
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border: #000000 0.05vw solid;
+    border-radius: 1vw;    
+    background-color: #FFF5C3; 
+}
+.div-ingredientes h2{
+    font-family: 'Caveat';
+    font-size: 2.5vh;
+    margin: 1vw;
+    text-align: center;
+}
+.div-ingredientes li{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 1vw;
+}
 
 .titulo-receitas{
     background-color: #FFF5C3    ;
@@ -73,6 +89,7 @@ main {
     margin-top: 2.5% ;
     border: 1px solid black;
 }
+
 .titulo-receitas h1{
     font-family: 'Caveat';
     font-size: 3vh;
